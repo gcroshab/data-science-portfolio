@@ -1,0 +1,214 @@
+---
+title: "Kia & Hyundai Theft Data Story"
+author: "Roshan GC"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+  word_document:
+    toc: true
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+# Data and Visuals (R)
+
+> Instructor note addressed: the six figures below are **non-duplicative**—each answers a distinct question (timing, composition, concentration, annual trend, geography, and cross-city benchmark).
+
+```{r packages}
+packages <- c("tidyverse","lubridate","readxl","janitor","scales","zoo","maps","treemapify")
+installed <- rownames(installed.packages())
+to_install <- setdiff(packages, installed)
+if(length(to_install) > 0) install.packages(to_install)
+
+library(tidyverse); library(lubridate); library(readxl); library(janitor)
+library(scales); library(zoo); library(maps); library(treemapify)
+```
+
+```{r load-data}
+mke   <- readr::read_csv("/users/roshan/DSC640/KiaHyundaiMilwaukeeData.csv", show_col_types = FALSE) %>%
+  mutate(month_year = my(paste(month, year))) %>% arrange(month_year)
+
+multi <- readr::read_csv("kiaHyundaiThefts.csv", show_col_types = FALSE) %>%
+  mutate(month_year = my(paste(month, year))) %>% arrange(city, state, month_year)
+
+mapdf <- readr::read_csv("carTheftsMap.csv", show_col_types = FALSE)
+
+vice_raw <- readxl::read_excel("Motherboard VICE News Kia Hyundai Theft Data.xlsx", sheet = "Data", col_names = TRUE)
+
+head(mke)
+```
+
+```{r vice-tidy}
+vice_colnames <- names(vice_raw)
+subheader <- vice_raw[1, -1] %>% unlist(use.names = FALSE) %>% as.character()
+
+city_names <- vice_colnames[-1]
+city_names <- ifelse(str_detect(city_names, "^Unnamed"), NA_character_, city_names)
+city_names <- zoo::na.locf(city_names, na.rm = FALSE)
+
+vice_data <- vice_raw[-1, ] %>%
+  rename(date = 1) %>%
+  mutate(date = as.Date(date))
+
+lookup <- tibble(
+  col = vice_colnames[-1],
+  city = city_names,
+  metric = subheader
+)
+
+vice_tidy <- vice_data %>%
+  pivot_longer(-date, names_to = "col", values_to = "value") %>%
+  left_join(lookup, by = "col") %>%
+  select(date, city, metric, value) %>%
+  mutate(
+    metric = case_when(
+      str_detect(metric, "Kia") ~ "kia_hyundai",
+      str_detect(metric, "All") ~ "all_thefts",
+      str_detect(metric, "Percent") ~ "percent",
+      TRUE ~ as.character(metric)
+    ),
+    value = as.numeric(value)
+  ) %>%
+  filter(!is.na(city)) %>%
+  pivot_wider(names_from = metric, values_from = value) %>%
+  mutate(percent = ifelse(percent > 1, percent/100, percent))
+```
+
+## Figure 1 (Stacked area): When does Milwaukee experience theft pressure?
+
+```{r fig1}
+fig1_df <- mke %>%
+  select(month_year, countKiaHyundaiThefts, countOtherThefts) %>%
+  pivot_longer(-month_year, names_to = "type", values_to = "thefts") %>%
+  mutate(type = recode(type,
+                       countKiaHyundaiThefts = "Kia/Hyundai",
+                       countOtherThefts = "Other vehicles"))
+
+ggplot(fig1_df, aes(x = month_year, y = thefts, fill = type)) +
+  geom_area(alpha = 0.9) +
+  scale_x_date(date_breaks = "6 months", date_labels = "%Y-%m") +
+  labs(
+    title = "Milwaukee vehicle theft volume is rising, with Kia/Hyundai thefts contributing increasingly",
+    x = "Month", y = "Thefts (count)", fill = ""
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+## Figure 2 (Donut): How large is the Kia/Hyundai share in 2022?
+
+```{r fig2}
+fig2_df <- mke %>%
+  filter(year == 2022) %>%
+  summarise(
+    `Kia/Hyundai` = sum(countKiaHyundaiThefts, na.rm = TRUE),
+    `Other vehicles` = sum(countOtherThefts, na.rm = TRUE)
+  ) %>%
+  pivot_longer(everything(), names_to = "type", values_to = "thefts") %>%
+  mutate(pct = thefts/sum(thefts))
+
+ggplot(fig2_df, aes(x = 2, y = thefts, fill = type)) +
+  geom_col(width = 1, color = "white") +
+  coord_polar(theta = "y") +
+  xlim(0.5, 2.5) +
+  geom_text(aes(label = percent(pct, accuracy = 0.1)),
+            position = position_stack(vjust = 0.5), size = 4) +
+  labs(
+    title = "In 2022, Kia/Hyundai thefts represent a substantial share of Milwaukee vehicle thefts",
+    x = NULL, y = NULL, fill = ""
+  ) +
+  theme_void(base_size = 11) +
+  theme(legend.position = "bottom")
+```
+
+## Figure 3 (Treemap): Where are Kia/Hyundai thefts most concentrated nationally?
+
+```{r fig3}
+fig3_df <- multi %>%
+  group_by(city, state) %>%
+  summarise(kia_hyundai_thefts = sum(countKiaHyundaiThefts, na.rm = TRUE), .groups = "drop") %>%
+  arrange(desc(kia_hyundai_thefts)) %>%
+  slice_head(n = 12) %>%
+  mutate(city_state = paste0(city, ", ", state))
+
+ggplot(fig3_df, aes(area = kia_hyundai_thefts, fill = city_state, label = city_state)) +
+  geom_treemap() +
+  geom_treemap_text(reflow = TRUE, place = "centre", min.size = 9) +
+  labs(
+    title = "Kia/Hyundai thefts are concentrated: top cities account for a large share of incidents (2019–2022 total)",
+    fill = ""
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(legend.position = "none")
+```
+
+## Figure 4 (Stacked bar): How is the problem changing year-over-year in Milwaukee?
+
+```{r fig4}
+fig4_df <- mke %>%
+  group_by(year) %>%
+  summarise(
+    `Kia/Hyundai` = sum(countKiaHyundaiThefts, na.rm = TRUE),
+    `Other vehicles` = sum(countOtherThefts, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  pivot_longer(-year, names_to = "type", values_to = "thefts")
+
+ggplot(fig4_df, aes(x = factor(year), y = thefts, fill = type)) +
+  geom_col() +
+  labs(
+    title = "Year-over-year, Milwaukee’s vehicle theft growth includes a growing Kia/Hyundai component",
+    x = "Year", y = "Thefts (count)", fill = ""
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(legend.position = "bottom")
+```
+
+## Figure 5 (Map): Which agencies show the biggest change from 2019 to 2022?
+
+```{r fig5}
+us_states <- map_data("state")
+map_plot_df <- mapdf %>%
+  mutate(change = percentChange2019to2022,
+         change_dir = if_else(change >= 0, "Increase", "Decrease"))
+
+ggplot() +
+  geom_polygon(data = us_states, aes(x = long, y = lat, group = group),
+               fill = "grey95", color = "white", linewidth = 0.2) +
+  geom_point(data = map_plot_df,
+             aes(x = longitude, y = latitude, size = abs(change), shape = change_dir),
+             alpha = 0.6) +
+  coord_fixed(1.3) +
+  scale_size_continuous(labels = percent_format(accuracy = 1)) +
+  labs(
+    title = "Many agencies show large changes in total vehicle thefts from 2019 to 2022",
+    x = NULL, y = NULL, size = "|% change|", shape = ""
+  ) +
+  theme_void(base_size = 11) +
+  theme(legend.position = "bottom")
+```
+
+## Figure 6 (VICE benchmark): How does Kia/Hyundai share vary across cities?
+
+```{r fig6}
+top_cities <- vice_tidy %>% filter(!is.na(percent)) %>% count(city, sort = TRUE) %>% slice_head(n = 4) %>% pull(city)
+
+fig6_df <- vice_tidy %>% filter(city %in% top_cities, !is.na(percent)) %>% arrange(city, date)
+
+ggplot(fig6_df, aes(x = date, y = percent, group = city, linetype = city)) +
+  geom_line(linewidth = 1) +
+  scale_y_continuous(labels = percent_format(accuracy = 1)) +
+  scale_x_date(date_breaks = "3 months", date_labels = "%Y-%m") +
+  labs(
+    title = "The share of thefts that are Kia/Hyundai varies across cities (VICE dataset)",
+    x = "Month", y = "Kia/Hyundai share of thefts", linetype = ""
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom")
+```
