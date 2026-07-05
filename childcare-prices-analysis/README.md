@@ -5,7 +5,7 @@ Interactive Tableau and canva dashboard analyzing childcare prices and affordabi
 ## Tools
 
 - Tableau
--Canva
+- Canva
 - Data Visualization
 
 ## Highlights
