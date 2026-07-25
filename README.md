@@ -1,14 +1,16 @@
 # Roshan GC
 
-**Master of Science in Data Science | Bellevue University**
+### Master of Science in Data Science | Bellevue University
 
-Welcome to my portfolio! This website showcases projects completed throughout my graduate studies, highlighting my experience in machine learning, predictive analytics, data visualization, recommendation systems, statistical analysis, and generative AI.
+**Machine Learning • Data Analytics • Generative AI**
+
+Welcome to my portfolio! This website showcases projects completed during my Master of Science in Data Science program at Bellevue University. These projects demonstrate my experience in machine learning, predictive analytics, data visualization, recommendation systems, statistical analysis, and generative AI.
 
 ---
 
 # About Me
 
-I have a background in Software Quality Assurance with experience in software automation, API testing, and software development. Through my graduate studies, I have expanded my expertise into data science by applying machine learning, analytics, and visualization techniques to solve real-world business problems.
+I am currently pursuing a **Master of Science in Data Science** at **Bellevue University**. My professional background is in Software Quality Assurance, where I have experience in software automation, API testing, and software development. Through my graduate studies, I have expanded my expertise into data science by applying machine learning, analytics, and visualization techniques to solve real-world business problems.
 
 ### Areas of Interest
 
@@ -21,16 +23,25 @@ I have a background in Software Quality Assurance with experience in software au
 
 ---
 
+# Portfolio Highlights
+
+- 🎓 Master of Science in Data Science – Bellevue University
+- 📂 10 Data Science Projects
+- 🤖 Machine Learning & Generative AI Applications
+- 📊 Experience with Python, R, SQL, Tableau, and Java
+
+---
+
 # Technical Skills
 
-### Programming
+### Programming Languages
 
 - Python
 - R
 - SQL
 - Java
 
-### Data Science
+### Data Science & Machine Learning
 
 - Pandas
 - NumPy
@@ -42,7 +53,7 @@ I have a background in Software Quality Assurance with experience in software au
 - Feature Engineering
 - Exploratory Data Analysis (EDA)
 
-### Visualization
+### Data Visualization
 
 - Tableau
 - Matplotlib
@@ -60,9 +71,11 @@ I have a background in Software Quality Assurance with experience in software au
 
 ## 🚗 Used Car Price Prediction
 
-Predicts used car selling prices using Linear Regression and Random Forest Regression.
+Developed machine learning models to predict used car selling prices using Linear Regression and Random Forest Regression.
 
-📁 Project Folder
+**Skills:** Python, Pandas, Scikit-learn, Machine Learning
+
+🔗 **View Project**
 
 [Used Car Price Prediction](./used-car-price-prediction)
 
@@ -70,19 +83,23 @@ Predicts used car selling prices using Linear Regression and Random Forest Regre
 
 ## 🤖 AI-Powered Test Case Generator
 
-Generates software test cases from user stories and API specifications using Generative AI.
+Designed a Generative AI solution to automatically generate software test cases from user stories and API specifications.
 
-📁 Project Folder
+**Skills:** Generative AI, Prompt Engineering, Java
 
-[AI Test Case Generator](./ai-test-case-generator)
+🔗 **View Project**
+
+[AI-Powered Test Case Generator](./ai-powered-test-case-generator)
 
 ---
 
-## 👶 Childcare Prices Analysis
+## 👶 Childcare Prices Analysis and Affordability
 
-Interactive Tableau dashboard exploring childcare affordability across the United States.
+Developed an interactive Tableau dashboard to analyze childcare affordability trends across the United States.
 
-📁 Project Folder
+**Skills:** Tableau, Dashboard Design, Data Visualization
+
+🔗 **View Project**
 
 [Childcare Prices Analysis](./childcare-prices-analysis)
 
@@ -90,9 +107,11 @@ Interactive Tableau dashboard exploring childcare affordability across the Unite
 
 ## 🎬 Movie Recommendation System
 
-Built a movie recommendation engine using collaborative filtering techniques and the MovieLens dataset.
+Built a recommendation engine using collaborative filtering techniques and the MovieLens dataset.
 
-📁 Project Folder
+**Skills:** Python, Recommendation Systems
+
+🔗 **View Project**
 
 [Movie Recommendation System](./movie-recommendation-system)
 
@@ -100,9 +119,11 @@ Built a movie recommendation engine using collaborative filtering techniques and
 
 ## 📺 Netflix Content Classification
 
-Developed a machine learning model to classify Netflix titles as Movies or TV Shows.
+Developed a machine learning classification model to predict whether Netflix content is a Movie or TV Show.
 
-📁 Project Folder
+**Skills:** Python, Logistic Regression, Classification
+
+🔗 **View Project**
 
 [Netflix Content Classification](./netflix-content-classification)
 
@@ -110,9 +131,11 @@ Developed a machine learning model to classify Netflix titles as Movies or TV Sh
 
 ## 😊 World Happiness Analysis
 
-Regression analysis identifying factors that influence happiness scores across countries.
+Performed regression analysis to identify socioeconomic factors influencing happiness scores across countries.
 
-📁 Project Folder
+**Skills:** Python, Regression Analysis, Data Visualization
+
+🔗 **View Project**
 
 [World Happiness Analysis](./world-happiness-analysis)
 
@@ -120,9 +143,11 @@ Regression analysis identifying factors that influence happiness scores across c
 
 ## 🌍 Netflix Global Viewership Analysis
 
-Performed exploratory data analysis to identify global Netflix viewing trends.
+Performed exploratory data analysis to identify global Netflix viewing trends through data visualization.
 
-📁 Project Folder
+**Skills:** Python, Pandas, Exploratory Data Analysis
+
+🔗 **View Project**
 
 [Netflix Global Viewership Analysis](./netflix-global-viewership-analysis)
 
@@ -130,9 +155,11 @@ Performed exploratory data analysis to identify global Netflix viewing trends.
 
 ## 🏛 White House Visitor Log Analysis
 
-Analyzed White House visitor logs using Python to identify trends and generate insights.
+Analyzed White House visitor logs using Python to identify patterns and generate meaningful insights.
 
-📁 Project Folder
+**Skills:** Python, Data Cleaning, Data Visualization
+
+🔗 **View Project**
 
 [White House Visitor Log Analysis](./white-house-log-analysis)
 
@@ -140,9 +167,11 @@ Analyzed White House visitor logs using Python to identify trends and generate i
 
 ## 🚘 Kia & Hyundai Car Theft Analysis
 
-Explored vehicle theft trends using statistical analysis and visualization in R.
+Explored vehicle theft trends using statistical analysis and visualizations developed in R.
 
-📁 Project Folder
+**Skills:** R, Statistical Analysis, Data Visualization
+
+🔗 **View Project**
 
 [Kia & Hyundai Car Theft Analysis](./kia-hyundai-car-theft-analysis)
 
@@ -150,9 +179,11 @@ Explored vehicle theft trends using statistical analysis and visualization in R.
 
 ## 🎲 Lottery Randomness Analysis
 
-Statistical analysis exploring randomness in lottery results using historical data.
+Conducted statistical analysis to explore the randomness of lottery outcomes using historical lottery data.
 
-📁 Project Folder
+**Skills:** Statistics, Data Visualization
+
+🔗 **View Project**
 
 [Lottery Randomness Analysis](./lottery-randomness-analysis)
 
@@ -162,26 +193,20 @@ Statistical analysis exploring randomness in lottery results using historical da
 
 **Bellevue University**
 
-Master of Science in Data Science
+**Master of Science in Data Science**
 
 ---
 
 # Contact
 
-**GitHub**
-
-https://github.com/gcroshab
-
-**LinkedIn**
-
-*linkedin.com/in/roshan-gc-4a4385285*
-
-**Email**
-
-*roshangc45@gmail.com*
+- **GitHub:** https://github.com/gcroshab
+- **LinkedIn:** https://linkedin.com/in/roshan-gc-4a4385285
+- **Email:** roshangc45@gmail.com
 
 ---
 
+## Thank You
+
 Thank you for visiting my portfolio!
 
-This portfolio highlights projects completed throughout my graduate studies and will continue to grow as I develop new data science and machine learning projects.
+This portfolio highlights projects completed throughout my graduate studies and demonstrates my skills in machine learning, predictive analytics, data visualization, statistical analysis, recommendation systems, and generative AI. I will continue expanding this portfolio with new projects and practical applications as I grow professionally in the field of data science.
