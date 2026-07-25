@@ -69,123 +69,83 @@ I am currently pursuing a **Master of Science in Data Science** at **Bellevue Un
 
 # Featured Projects
 
-## 🚗 Used Car Price Prediction
+## 🚗 [Used Car Price Prediction](./used-car-price-prediction)
 
 Developed machine learning models to predict used car selling prices using Linear Regression and Random Forest Regression.
 
 **Skills:** Python, Pandas, Scikit-learn, Machine Learning
 
-🔗 **View Project**
-
-[Used Car Price Prediction](./used-car-price-prediction)
-
 ---
 
-## 🤖 AI-Powered Test Case Generator
+## 🤖 [AI-Powered Test Case Generator](./ai-powered-test-case-generator)
 
 Designed a Generative AI solution to automatically generate software test cases from user stories and API specifications.
 
 **Skills:** Generative AI, Prompt Engineering, Java
 
-🔗 **View Project**
-
-[AI-Powered Test Case Generator](./ai-powered-test-case-generator)
-
 ---
 
-## 👶 Childcare Prices Analysis and Affordability
+## 👶 [Childcare Prices Analysis and Affordability](./childcare-prices-analysis)
 
-Developed an interactive Tableau dashboard to analyze childcare affordability trends across the United States.
+Developed an interactive Tableau dashboard to analyze childcare affordability across the United States.
 
 **Skills:** Tableau, Dashboard Design, Data Visualization
 
-🔗 **View Project**
-
-[Childcare Prices Analysis](./childcare-prices-analysis)
-
 ---
 
-## 🎬 Movie Recommendation System
+## 🎬 [Movie Recommendation System](./movie-recommendation-system)
 
 Built a recommendation engine using collaborative filtering techniques and the MovieLens dataset.
 
 **Skills:** Python, Recommendation Systems
 
-🔗 **View Project**
-
-[Movie Recommendation System](./movie-recommendation-system)
-
 ---
 
-## 📺 Netflix Content Classification
+## 📺 [Netflix Content Classification](./netflix-content-classification)
 
-Developed a machine learning classification model to predict whether Netflix content is a Movie or TV Show.
+Developed a machine learning classification model to distinguish Netflix titles as Movies or TV Shows.
 
 **Skills:** Python, Logistic Regression, Classification
 
-🔗 **View Project**
-
-[Netflix Content Classification](./netflix-content-classification)
-
 ---
 
-## 😊 World Happiness Analysis
+## 😊 [World Happiness Analysis](./world-happiness-analysis)
 
 Performed regression analysis to identify socioeconomic factors influencing happiness scores across countries.
 
 **Skills:** Python, Regression Analysis, Data Visualization
 
-🔗 **View Project**
-
-[World Happiness Analysis](./world-happiness-analysis)
-
 ---
 
-## 🌍 Netflix Global Viewership Analysis
+## 🌍 [Netflix Global Viewership Analysis](./netflix-global-viewership-analysis)
 
-Performed exploratory data analysis to identify global Netflix viewing trends through data visualization.
+Performed exploratory data analysis to identify global Netflix viewing trends using visual analytics.
 
 **Skills:** Python, Pandas, Exploratory Data Analysis
 
-🔗 **View Project**
-
-[Netflix Global Viewership Analysis](./netflix-global-viewership-analysis)
-
 ---
 
-## 🏛 White House Visitor Log Analysis
+## 🏛 [White House Visitor Log Analysis](./white-house-log-analysis)
 
 Analyzed White House visitor logs using Python to identify patterns and generate meaningful insights.
 
 **Skills:** Python, Data Cleaning, Data Visualization
 
-🔗 **View Project**
-
-[White House Visitor Log Analysis](./white-house-log-analysis)
-
 ---
 
-## 🚘 Kia & Hyundai Car Theft Analysis
+## 🚘 [Kia & Hyundai Car Theft Analysis](./kia-hyundai-car-theft-analysis)
 
 Explored vehicle theft trends using statistical analysis and visualizations developed in R.
 
 **Skills:** R, Statistical Analysis, Data Visualization
 
-🔗 **View Project**
-
-[Kia & Hyundai Car Theft Analysis](./kia-hyundai-car-theft-analysis)
-
 ---
 
-## 🎲 Lottery Randomness Analysis
+## 🎲 [Lottery Randomness Analysis](./lottery-randomness-analysis)
 
 Conducted statistical analysis to explore the randomness of lottery outcomes using historical lottery data.
 
 **Skills:** Statistics, Data Visualization
-
-🔗 **View Project**
-
-[Lottery Randomness Analysis](./lottery-randomness-analysis)
 
 ---
 
@@ -193,14 +153,14 @@ Conducted statistical analysis to explore the randomness of lottery outcomes usi
 
 **Bellevue University**
 
-**Master of Science in Data Science**
+Master of Science in Data Science
 
 ---
 
 # Contact
 
 - **GitHub:** https://github.com/gcroshab
-- **LinkedIn:** https://linkedin.com/in/roshan-gc-4a4385285
+- **LinkedIn:** https://www.linkedin.com/in/roshan-gc-4a4385285
 - **Email:** roshangc45@gmail.com
 
 ---
