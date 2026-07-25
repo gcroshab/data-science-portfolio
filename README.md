@@ -1,7 +1,5 @@
 # Roshan GC
 
-## Data Science Portfolio
-
 **Master of Science in Data Science | Bellevue University**
 
 Welcome to my portfolio! This website showcases projects completed throughout my graduate studies, highlighting my experience in machine learning, predictive analytics, data visualization, recommendation systems, statistical analysis, and generative AI.
