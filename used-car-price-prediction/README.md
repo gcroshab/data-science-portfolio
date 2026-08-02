@@ -1,7 +1,7 @@
 # Used Car Price Prediction
 
 ## Project Overview
-This project develops the machine learning (ML) model to predict the selling price of used-cars based on vehicle variables. The goal is to support buyers, sellers, dealerships to calculate fair market prices using historical vehicle data.
+This project built the machine learning (ML) model to predict the selling price of used-cars based on vehicle variables. The goal is to support buyers, sellers, dealerships to calculate fair market prices using historical vehicle data.
 
 ## Business Problem
 Determining a fair price for a used car can be difficult because multiple factors. An accurate prediction model can help buyers, sellers, and dealerships make more accurate pricing decisions.
