@@ -1,6 +1,7 @@
 # Roshan GC
 
 ### Master of Science in Data Science | Bellevue University
+### Software Quality Assurance Professional transitioning into Data Science
 
 **Machine Learning • Data Analytics • Generative AI**
 
