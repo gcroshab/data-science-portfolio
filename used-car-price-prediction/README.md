@@ -47,13 +47,6 @@ The Random Forest Regression model got better predictive performance compared to
 - `dataset/` – Dataset information and source
 - README
 
-- ## Repository Contents
-
-- 📓 [Jupyter Notebook](./Used_Car_Price_Prediction.ipynb)
-- 📊 [Dataset](./data/)
-- 📄 [Final Report](./report/)
-- 📽️ [Presentation](./presentation/)
-- README
 
 ## Future Improvements
 - Use larger datasets
