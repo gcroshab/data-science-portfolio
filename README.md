@@ -4,7 +4,7 @@
 
 **Machine Learning • Data Analytics • Generative AI**
 
-Welcome to my portfolio! In my portfolio, you will find projects that I completed while pursuing my Master of Science in Data Science at Bellevue University. These projects gave me practical experience in Machine Learning, Predictive Modeling, Data Visualization, Recommendation Systems, Statistical Analysis, and generative Artificial Intelligence.
+Welcome! I  am currently pursuing a M.S. in Data Science from Bellevue University and have a background in Software Quality Assurance. This portfolio contains projects in Machine Learning, Predictive Analytics, Data Visualization, Recommendation Systems, and Generative AI.
 
 ---
 
