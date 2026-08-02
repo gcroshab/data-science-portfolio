@@ -4,13 +4,13 @@
 
 **Machine Learning • Data Analytics • Generative AI**
 
-Welcome to my portfolio! This website showcases projects completed during my Master of Science in Data Science program at Bellevue University. These projects demonstrate my experience in machine learning, predictive analytics, data visualization, recommendation systems, statistical analysis, and generative AI.
+Welcome to my portfolio! In my portfolio, you will find projects that I completed while pursuing my Master of Science in Data Science at Bellevue University. These projects gave me practical experience in Machine Learning, Predictive Modeling, Data Visualization, Recommendation Systems, Statistical Analysis, and generative Artificial Intelligence.
 
 ---
 
 # About Me
 
-I am currently pursuing a **Master of Science in Data Science** at **Bellevue University**. My professional background is in Software Quality Assurance, where I have experience in software automation, API testing, and software development. Through my graduate studies, I have expanded my expertise into data science by applying machine learning, analytics, and visualization techniques to solve real-world business problems.
+I am pursuing a Master of Science in Data Science at Bellevue University. Before I got into data science, I worked in Software Quality Assurance, focusing on software automation testing, API testing, and software development. My graduate work has given me the opportunity to apply Machine Learning, Analytics, and Data Visualization techniques to practical, real-world problems.
 
 ### Areas of Interest
 
@@ -167,6 +167,7 @@ Master of Science in Data Science
 
 ## Thank You
 
-Thank you for visiting my portfolio!
+Welcome to my portfolio page!
 
-This portfolio highlights projects completed throughout my graduate studies and demonstrates my skills in machine learning, predictive analytics, data visualization, statistical analysis, recommendation systems, and generative AI. I will continue expanding this portfolio with new projects and practical applications as I grow professionally in the field of data science.
+This portfolio contains projects that I have completed on during my graduation studies and demonstrates my skills in Machine Learning, Predictive Modeling, Visualization, Statistical Analysis, Recommendation System, and generative AI. I  will continue expanding this portfolio with new projects and practical applications as I gain more experience in Data Science.
+
