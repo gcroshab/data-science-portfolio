@@ -165,9 +165,5 @@ Master of Science in Data Science
 
 ---
 
-## Thank You
 
-Welcome to my portfolio page!
-
-This portfolio contains projects that I have completed on during my graduation studies and demonstrates my skills in Machine Learning, Predictive Modeling, Visualization, Statistical Analysis, Recommendation System, and generative AI. I  will continue expanding this portfolio with new projects and practical applications as I gain more experience in Data Science.
-
+Thanks for viewing my portfolio. I will keep updating it with new projects and skills as I continue to grow in the data science field.
