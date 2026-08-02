@@ -77,7 +77,7 @@ Developed machine learning models to predict used car selling prices using Linea
 
 ---
 
-## 🤖 [AI-Powered Test Case Generator](./ai-powered-test-case-generator)
+## 🤖 [AI-Powered Test Case Generator](./ai-test-case-generator)
 
 Designed a Generative AI solution to automatically generate software test cases from user stories and API specifications.
 
