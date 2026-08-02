@@ -157,7 +157,7 @@ Conducted statistical analysis to explore the randomness of lottery outcomes usi
 
 **Bellevue University**
 
-Master of Science in Data Science
+Master of Science in Data Science (In Progress)
 
 ---
 
