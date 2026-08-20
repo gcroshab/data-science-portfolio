@@ -6,7 +6,7 @@ This project uses machine learning to predict customer churn based on given cust
 
 ## Business Problem
 
-Customer churn may result in loss of revenue and increased costs for acquiring new customers. Predicting churn can help businesses identify at-risk customers and develop targeted retention strategies.
+Customer churn is one of the major problems that companies face because losing customers can lose income and increase the cost of acquiring new customers. Predicting churn can help businesses identify at-risk customers and develop targeted retention strategies.
 
 ## Technologies Used
 
