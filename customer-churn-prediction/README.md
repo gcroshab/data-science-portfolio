@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project uses machine learning to predict customer churn based on customer characteristics and service-related information. The goal is to identify customers who are more likely to leave so that businesses can take steps to improve customer retention.
+This project uses machine learning to predict customer churn based on given customer characteristics and service-related information. The goal is to identify customers who are more likely to leave so that businesses can take steps to improve customer retention.
 
 ## Business Problem
 
-Customer churn can result in lost revenue and increased costs for acquiring new customers. Predicting churn can help businesses identify at-risk customers and develop targeted retention strategies.
+Customer churn may result in loss of revenue and increased costs for acquiring new customers. Predicting churn can help businesses identify at-risk customers and develop targeted retention strategies.
 
 ## Technologies Used
 
