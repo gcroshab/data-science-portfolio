@@ -101,7 +101,7 @@ Designed a Generative AI solution to automatically generate software test cases 
 
 **Skills:** Generative AI, Prompt Engineering, Java
 
-🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/ai-powered-test-case-generator)
+🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/ai-test-case-generator)
 
 ---
 
