@@ -153,6 +153,14 @@ Conducted statistical analysis to explore the randomness of lottery outcomes usi
 
 ---
 
+## 👥 [Customer Churn Prediction](./customer-churn-prediction)
+
+Developed machine learning classification models to predict customer churn and identify customers who may be at risk of leaving.
+
+**Skills:** Python, Scikit-learn, Logistic Regression, Random Forest, Classification
+
+---
+
 # Education
 
 **Bellevue University**
