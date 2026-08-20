@@ -6,13 +6,13 @@
 
 **Machine Learning • Data Analytics • Generative AI**
 
-Welcome! I am currently pursuing a M.S. in Data Science from Bellevue University and have a background in Software Quality Assurance. This portfolio contains projects in Machine Learning, Predictive Analytics, Data Visualization, Recommendation Systems, and Generative AI.
+Welcome! This portfolio showcases my projects in Machine Learning, Predictive Analytics, Data Visualization, Recommendation Systems, Statistical Analysis, and Generative AI. These projects demonstrate how I apply data science techniques to practical and real-world problems.
 
 ---
 
 # About Me
 
-I have worked professionally in Software Quality Assurance and possess expertise in Software Automation Testing, API Testing, and Software Development. As part of my Master of Science in Data Science studies at Bellevue University, I have enhanced my technical abilities by applying Machine Learning, Data Analytics, and Data Visualization to solve real-world business problems. 
+I am currently pursuing an M.S. in Data Science at Bellevue University and have a professional background in Software Quality Assurance. My experience includes software automation testing, API testing, and software development. Through my graduate studies, I have further enhanced my skills in machine learning, data analytics, and visualization with a problem-solving approach for business issues.
 
 ---
 
