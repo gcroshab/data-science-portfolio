@@ -30,7 +30,7 @@ I have worked professionally in Software Quality Assurance and possess expertise
 # Portfolio Highlights
 
 - 🎓 Master of Science in Data Science – Bellevue University
-- 📂 10 Data Science Projects
+- 📂 11 Data Science Projects
 - 🤖 Machine Learning & Generative AI Applications
 - 📊 Experience with Python, R, SQL, Tableau, and Java
 
