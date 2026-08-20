@@ -173,7 +173,7 @@ Master of Science in Data Science (In Progress)
 
 - **GitHub:** https://github.com/gcroshab
 - **LinkedIn:** https://www.linkedin.com/in/roshan-gc-4a4385285
-- **Email:** roshangc45@gmail.com
+- **Email:** roshangc01@outlook.com
 
 ---
 
