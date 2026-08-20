@@ -89,10 +89,7 @@ Developed machine learning models to predict used car selling prices using Linea
 
 **Skills:** Python, Pandas, Scikit-learn, Machine Learning
 
-
-### Project Files
-
-[View Code and Project Files on GitHub](https://github.com/gcroshab/data-science-portfolio/tree/main/used-car-price-prediction)
+🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/used-car-price-prediction)
 
 ---
 
