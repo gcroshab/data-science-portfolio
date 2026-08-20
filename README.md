@@ -81,6 +81,8 @@ Developed machine learning classification models to predict customer churn and i
 
 **Skills:** Python, Scikit-learn, Logistic Regression, Random Forest, Classification
 
+🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/customer-churn-prediction)
+
 ---
 
 ## 🚗 [Used Car Price Prediction](./used-car-price-prediction)
@@ -99,6 +101,8 @@ Designed a Generative AI solution to automatically generate software test cases 
 
 **Skills:** Generative AI, Prompt Engineering, Java
 
+🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/ai-powered-test-case-generator)
+
 ---
 
 ## 👶 [Childcare Prices Analysis and Affordability](./childcare-prices-analysis)
@@ -106,6 +110,8 @@ Designed a Generative AI solution to automatically generate software test cases 
 Developed an interactive Tableau dashboard to analyze childcare affordability across the United States.
 
 **Skills:** Tableau, Dashboard Design, Data Visualization
+
+🔗 [View Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/childcare-prices-analysis)
 
 ---
 
@@ -115,6 +121,8 @@ Built a recommendation engine using collaborative filtering techniques and the M
 
 **Skills:** Python, Recommendation Systems
 
+🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/movie-recommendation-system)
+
 ---
 
 ## 📺 [Netflix Content Classification](./netflix-content-classification)
@@ -122,6 +130,8 @@ Built a recommendation engine using collaborative filtering techniques and the M
 Developed a machine learning classification model to distinguish Netflix titles as Movies or TV Shows.
 
 **Skills:** Python, Logistic Regression, Classification
+
+🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/netflix-content-classification)
 
 ---
 
@@ -131,6 +141,8 @@ Performed regression analysis to identify socioeconomic factors influencing happ
 
 **Skills:** Python, Regression Analysis, Data Visualization
 
+🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/world-happiness-analysis)
+
 ---
 
 ## 🌍 [Netflix Global Viewership Analysis](./netflix-global-viewership-analysis)
@@ -138,6 +150,8 @@ Performed regression analysis to identify socioeconomic factors influencing happ
 Performed exploratory data analysis to identify global Netflix viewing trends using visual analytics.
 
 **Skills:** Python, Pandas, Exploratory Data Analysis
+
+🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/netflix-global-viewership-analysis)
 
 ---
 
@@ -147,6 +161,8 @@ Analyzed White House visitor logs using Python to identify patterns and generate
 
 **Skills:** Python, Data Cleaning, Data Visualization
 
+🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/white-house-log-analysis)
+
 ---
 
 ## 🚘 [Kia & Hyundai Car Theft Analysis](./kia-hyundai-car-theft-analysis)
@@ -155,6 +171,8 @@ Explored vehicle theft trends using statistical analysis and visualizations deve
 
 **Skills:** R, Statistical Analysis, Data Visualization
 
+🔗 [View Code & Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/kia-hyundai-car-theft-analysis)
+
 ---
 
 ## 🎲 [Lottery Randomness Analysis](./lottery-randomness-analysis)
@@ -162,6 +180,8 @@ Explored vehicle theft trends using statistical analysis and visualizations deve
 Conducted statistical analysis to explore the randomness of lottery outcomes using historical lottery data.
 
 **Skills:** Statistics, Data Visualization
+
+🔗 [View Project Files](https://github.com/gcroshab/data-science-portfolio/tree/main/lottery-randomness-analysis)
 
 ---
 
