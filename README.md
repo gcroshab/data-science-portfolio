@@ -73,11 +73,26 @@ I have worked professionally in Software Quality Assurance and possess expertise
 
 # Featured Projects
 
+---
+
+## 👥 [Customer Churn Prediction](./customer-churn-prediction)
+
+Developed machine learning classification models to predict customer churn and identify customers who may be at risk of leaving.
+
+**Skills:** Python, Scikit-learn, Logistic Regression, Random Forest, Classification
+
+---
+
 ## 🚗 [Used Car Price Prediction](./used-car-price-prediction)
 
 Developed machine learning models to predict used car selling prices using Linear Regression and Random Forest Regression.
 
 **Skills:** Python, Pandas, Scikit-learn, Machine Learning
+
+
+### Project Files
+
+[View Code and Project Files on GitHub](https://github.com/gcroshab/data-science-portfolio/tree/main/used-car-price-prediction)
 
 ---
 
@@ -150,14 +165,6 @@ Explored vehicle theft trends using statistical analysis and visualizations deve
 Conducted statistical analysis to explore the randomness of lottery outcomes using historical lottery data.
 
 **Skills:** Statistics, Data Visualization
-
----
-
-## 👥 [Customer Churn Prediction](./customer-churn-prediction)
-
-Developed machine learning classification models to predict customer churn and identify customers who may be at risk of leaving.
-
-**Skills:** Python, Scikit-learn, Logistic Regression, Random Forest, Classification
 
 ---
 
